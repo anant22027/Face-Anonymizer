@@ -139,8 +139,13 @@ Videos: MP4, MOV, AVI, WEBM
 # Privacy & Security
 
 ✅ All processing happens locally
+
 ✅ No cloud storage or external APIs
+
 ✅ Files processed in-memory only
+
 ✅ IP-based rate limiting
+
 ✅ No user tracking or analytics
+
 ✅ CORS protection enabled
