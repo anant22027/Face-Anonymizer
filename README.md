@@ -23,15 +23,21 @@ Face Anonymizer is a privacy-first web application that automatically detects an
 Backend:
 
 FastAPI (Python 3.9+)
+
 DeepFace + RetinaFace
+
 OpenCV
+
 TensorFlow
 
 Frontend:
 
 Next.js 14
+
 React 18
+
 TypeScript
+
 Tailwind CSS
 
 # Quick Start
@@ -51,8 +57,9 @@ bashcd backend
 python -m venv venv
 
 # Activate virtual environment
-# Windows: venv\Scripts\activate
-# macOS/Linux: source venv/bin/activate
+Windows: venv\Scripts\activate
+
+macOS/Linux: source venv/bin/activate
 
 # Install dependencies
 pip install -r requirements.txt
@@ -75,7 +82,7 @@ Frontend runs on `http://localhost:3000`
 
 **Access the app:** Open http://localhost:3000 in your browser
 
-## 📁 Project Structure
+##  Project Structure
 ```
 face-anonymizer/
 ├── backend/
@@ -94,7 +101,7 @@ face-anonymizer/
 │   └── next.config.js      # Next.js config
 │
 └── docker-compose.yml      # Docker orchestration
-🎯 Usage
+# Usage
 
 Select Mode: Choose Single File or Batch (up to 10 images)
 Choose Settings:
@@ -111,13 +118,13 @@ Supports: PNG, JPG, GIF, MP4, MOV, AVI, WEBM
 Process: Click "Anonymize Faces"
 Download: Get your anonymized files
 
-🐳 Docker Deployment
+# Docker Deployment
 bash# Build and run with Docker Compose
 docker-compose up -d
 
 # Access at http://localhost:3000
 
-📊 Performance
+# Performance
 
 Image Processing: ~1-3 seconds per image
 Video Processing: ~0.1-0.2 seconds per frame
@@ -129,7 +136,7 @@ Videos: MP4, MOV, AVI, WEBM
 
 
 
-🔒 Privacy & Security
+# Privacy & Security
 
 ✅ All processing happens locally
 ✅ No cloud storage or external APIs
