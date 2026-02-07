@@ -2,7 +2,7 @@
 
 Face Anonymizer is a privacy-first web application that automatically detects and anonymizes faces in images and videos. Built with modern open-source technologies, it provides a clean interface for protecting identities in media files.
 
-Key Features:
+# Key Features:
 
 -Auto-detect faces using DeepFace with RetinaFace
 
@@ -18,7 +18,7 @@ Key Features:
 
 -Rate limiting (5 uses/day per IP)
 
-🛠️ Tech Stack
+# Tech Stack
 
 Backend:
 
@@ -34,7 +34,7 @@ React 18
 TypeScript
 Tailwind CSS
 
- Quick Start
+# Quick Start
 Prerequisites
 
 Python 3.9+
