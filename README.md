@@ -21,31 +21,23 @@ Face Anonymizer is a privacy-first web application that automatically detects an
 # Tech Stack
 
 Backend:
-
-FastAPI (Python 3.9+)
-
-DeepFace + RetinaFace
-
-OpenCV
-
-TensorFlow
+1. FastAPI (Python 3.9+)
+2. DeepFace + RetinaFace
+3. OpenCV
+4. TensorFlow
 
 Frontend:
-
-Next.js 14
-
-React 18
-
-TypeScript
-
-Tailwind CSS
+1. Next.js 14
+2. React 18
+3. TypeScript
+4. Tailwind CSS
 
 # Quick Start
 Prerequisites
 
-Python 3.9+
-Node.js 18+
-4GB+ RAM
+1. Python 3.9+
+2. Node.js 18+
+3. 4GB+ RAM
 
 Installation
 1. Clone/Download the project
@@ -122,17 +114,18 @@ Download: Get your anonymized files
 bash# Build and run with Docker Compose
 docker-compose up -d
 
-# Access at http://localhost:3000
+Access at http://localhost:3000
 
 # Performance
 
-Image Processing: ~1-3 seconds per image
-Video Processing: ~0.1-0.2 seconds per frame
-Memory Usage: 500MB-2GB (varies by file size)
-Supported Formats:
+1. Image Processing: ~1-3 seconds per image
+2. Video Processing: ~0.1-0.2 seconds per frame
+3. Memory Usage: 500MB-2GB (varies by file size)
 
-Images: PNG, JPG, JPEG, GIF, WEBP
-Videos: MP4, MOV, AVI, WEBM
+Supported Formats:
+- Images: PNG, JPG, JPEG, GIF, WEBP
+  
+- Videos: MP4, MOV, AVI, WEBM
 
 
 
